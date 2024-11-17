@@ -1,0 +1,290 @@
+------------------------------------------------------------------------------------------
+
+                     PaintTool SAI Software License Agreement
+
+                                    SYSTEMAX Inc.
+
+------------------------------------------------------------------------------------------
+
+(*) This translation of English is a translation of the "PaintTool SAI Software License
+Agreement" written in Japanese for referring. A formal original license agreement becomes
+the Japanese one.
+Please note that you need to agree to an original license agreement that is not
+translation but written in Japanese.
+
+-----------------------------------------------
+
+1. General
+Before downloading, installing or using this software, you must read all of the terms of
+this "PaintTool SAI Software License Agreement". Only when you agree to all of the terms
+of this license agreement, SYSTEMAX Inc. permit you to download or to install or to use
+this software on your PC.
+
+If you not agree to all of the terms of this agreement of this license, you must
+immediately cease using this software, and destroy all copies of this software stored on
+your hard drive or any storage system.
+
+We consider that the user downloaded, installed, used and bought this software in Japan
+country even if the user is not living in Japan.
+
+Additionally, this license agreement is subjected to all of the previous beta release of
+this software, provided 8/2/2004 to 2/25/2008, too.
+
+
+2. Copyright
+This software and all contents in this site are copyrighted by SYSTEMAX Inc. and all
+right reserved, and under protection of Japanese and foreign copyright laws.
+
+When user purchase the software license, this mean that SYSTEMAX Inc. permit user ONLY
+the right to use this software in licensed environment, and NOT mean give all other rights
+to the user.
+
+
+3. Qualifications for Using of This Software
+This software requires basic knowledge about Windows operation. Especially, basic knowledge
+about the following are indispensable.
+
+- Concepts and basic operations of file downloading by web browser.
+
+- Concepts and basic operations for file and folder management on Windows.
+
+- Concepts and basic operations for Windows application.
+
+We cannot provide support for basic knowledge about Windows operation. Please do not buy
+the license for this software if you do not know basic knowledge about Windows operation.
+
+
+4. Evaluation Period
+This software has 31 days evaluation period, SYSTEMAX Inc. allow user to use this software
+without fee in this evaluation period only software evaluation purpose. This license
+agreement is also subjected to using this software in evaluation period.
+
+In this evaluation period, the user must confirm that this software work correctly on
+user's environment, and whether this software is useful or not.
+
+After 31 days, evaluation period expired, if you want to continue to use this software,
+you must buy software license from SYSTEMAX Inc.
+
+Evaluation period may be suddenly expired by the reasons that PC's clock changed or other
+system oriented problems. Regardless of user's deliberate or not, SYSTEMAX Inc. don't
+recover this expired evaluation period.
+
+
+5. License
+SYSTEMAX Inc. permits non-monopolized right using this software to the user who bought the
+user license of this software.
+
+When the user is individual and only the user use this software himself, in this case the
+single software license can install any of the user's own PC.
+
+When this software is used by two or more people in the family or in the company etc.,
+in this case plural software licenses is required. Required license count is little one
+of both "Number of people who use this software" and "Number of PC in which this software
+installed".
+
+
+6. Privacy Policy
+Individual information of the user SYSTEMAX Inc. obtained, when the user purchase license,
+is used only the purpose of the personal identification when the user loses the download
+password of the software license.
+
+SYSTEMAX Inc. promises to try to prevent individual information leakage, and no selling
+them to others and not to transfer it.
+
+
+7. Disclaimer
+SYSTEMAX Inc. always try to implement this software working correctly. but a program
+generally may have some bugs or provide unexpected result caused by specific environment.
+
+This software is provided "AS IS". SYSTEMAX Inc. don't give any warranty about this
+software working, and don't owe to any request from users or bug fixes.
+
+Any risk by using this software is owed to the user. SYSTEMAX Inc. don't owe to any
+damages by using this software.
+
+
+8. Prohibited
+The following matter is prohibited on this software.
+
+- Thing used for usage to contravene law.
+
+- Thing used for usage related to human life
+  (for example, analysis of medical images etc.).
+
+- Thing that doesn't acquire user license and using this software exceeding the 31days
+  trial period.
+
+- Thing to indicate or to offer any method or information of illegally extending
+  evaluation period.
+
+- Thing to indicate or to offer any method or information of illegally evading evaluation
+  period or software license protection.
+
+- Thing to transfer or to distribute one's user license to others.
+
+- Thing to use or distribute this software by profit-pursuing purpose without permission.
+
+- Thing to do reverse engineering.
+
+- Thing to modify program code.
+
+When one violates these prohibited matters, immediately the one lose the right to use this
+software, and SYSTEMAX Inc. don't owe any responsibility for any damages by the violation
+to these prohibited matter.
+
+
+9. Redistribution
+This software contains some customizable elements(tool settings etc.) by the end user,
+when the user create and distribute these files must follow following conditions.
+
+- Thing that doesn't contain content that contravenes law.
+
+- Thing that doesn't contain content that any disadvantages to others.
+
+- Thing that doesn't contain any method or information of illegally extending evaluation
+  period.
+
+- Thing that doesn't contain any method or information of illegally evading evaluation
+  period or software license protection.
+
+SYSTEMAX Inc. don't owe any responsibility for damages by these generated or
+redistributed material by other people than SYSTEMAX Inc.
+
+
+10. Works by End User
+We do not restrict sales or monetizing of the own works by the end user that used this
+software. The rights of the own works of the end user belong to the end user.
+
+
+11. Modification of this agreements
+This software agreement might be modified without any previous notice.
+
+
+
+
+
+
+------------------------------------------------------------------------------------------
+
+                     ペイントツールSAI 「ソフトウェアのご使用条件」
+
+                                    株式会社SYSTEMAX
+
+------------------------------------------------------------------------------------------
+
+１．はじめに
+本ソフトウェアを使用する前に必ずこの「ソフトウェアのご使用条件」(以下、本使用条件とします)
+をお読みください。株式会社SYSTEMAX(以下、SYSTEMAX)はエンドユーザーが本使用条件に同意される
+場合にのみ本ソフトウェアの使用を許諾します。本使用条件に同意しない場合は直ちに本ソフトウェ
+アに関するファイルをすべて破棄してください。
+本ソフトウェアは日本国内に対してのみ提供および販売されます。エンドユーザーが海外に在住の者
+であっても日本国内で購入したものとみなし、日本国内のエンドユーザーと同一の使用条件が適用さ
+れるものとします。
+なお、2004年8月2日から2008年2月25日までに無償配布された本ソフトウェアのテスト版についても
+本使用条件が適用されるものとします。
+
+
+２．著作権
+本ソフトウェアの著作権はSYSTEMAXが保有し、日本の著作権法によって保護されています。エンドユ
+ーザーが「本ソフトウェアを購入」する場合、ソフトウェアの使用権(以下、ユーザーライセンス)を
+購入するものであって、ソフトウェアに関わる全ての権利が譲渡されるものではありません。
+
+
+３．本ソフトウェアを使用するための技能
+本製品のインストール・使用・ライセンスの設定においてはWindowsの基礎知識が要求されます。
+特に下記に関する基礎知識は習得している事が必須条件となります。
+
+・Windowsのファイルとフォルダの概念と基本操作
+
+・ウェブブラウザによるファイルのダウンロードの概念と基本操作
+
+・Windowsアプリケーションの概念と基本操作
+
+SYSTEMAXはWindowsの基礎知識に関するユーザーサポートを行うことができません。これらの基礎知
+識を習得されていない場合は本ソフトウェアのユーザーライセンスを購入なさらないでください。
+
+
+４．試用期間
+本ソフトウェアには31日間の試用期間が設定されています。SYSTEMAXは本ソフトウェアのユーザーラ
+イセンスを購入していないエンドユーザーが本使用条件の元で本ソフトウェアを31日間だけ試用する
+事を許諾します。エンドユーザーはこの試用期間において本ソフトウェアがエンドユーザーの想定す
+るPC環境で問題なく動作するか、本ソフトウェアが購入に値するものであるかどうかを判断するもの
+とします。試用期間を終えた後も継続して本ソフトウェアを使用する場合はユーザーライセンスを購
+入する必要があるものとします。
+試用期間はPCの時計の変更やその他動作環境に起因する理由で突然終了する場合があります。それが
+ユーザーの故意・過失であるかを問わずSYSTEMAXは試用期間の復帰等の救済措置は行いません。
+
+
+５．使用許諾
+SYSTEMAXは本ソフトウェアのユーザーライセンスを購入したエンドユーザーに対して本ソフトウェア
+を非独占的に使用する事を許諾します。
+エンドユーザーが個人であって本ソフトウェアの使用者がその本人のみである場合に限り、１つのユ
+ーザーライセンスでエンドユーザー個人が所有するPC何台にでも本ソフトウェアをインストールして
+使用することができます。
+家族・会社等で複数人にて本ソフトウェアを使用する場合は「本ソフトウェアを使用する人数」もし
+くは「本ソフトウェアをインストールするPC台数」のうちいずれか少ない方に相当するユーザーライ
+センス数が必要であるものとします。
+
+
+６．個人情報の取り扱い
+ユーザーライセンスの購入時等にSYSTEMAXが得たエンドユーザーの個人情報は、エンドユーザーがユ
+ーザーライセンスのダウンロードパスワードを紛失した場合の再発行手続きにおいて、本人確認の目
+的でのみ使用されます。SYSTEMAXは個人情報流出の防止に努め、他者への売却や譲渡を行わないこと
+を約束します。
+
+
+７．責任の制限
+本ソフトウェアは正常に動作することを念頭に開発されていますが、コンピュータプログラムという
+性格上、意図せぬ不具合や動作環境等に起因する理由によって期待した動作をしない場合があります。
+SYSTEMAXは本ソフトウェアの動作に不具合が無い事を保障しません。また、エンドユーザーからの要
+望への対応や不具合の修正を行う事を保障しません。本ソフトウェアを使用した結果についてはすべ
+てエンドユーザーの責任とします。本ソフトウェアの使用によって発生したあらゆる損害について
+SYSTEMAXにその責は無いものとします。
+
+
+８．禁止事項
+本ソフトウェアについて下記の事項を禁止します。
+
+・法律に違反する用途に使用する事
+
+・人命に関わる用途に使用する事 (例えば医療用画像の分析など)
+
+・ユーザーライセンスを取得せず試用期間の31日を超えて使用する事
+
+・定められた試用期間を不正に延長する方法を開示または提供する事
+
+・試用期間制限を不正に回避する方法を開示または提供する事
+
+・ユーザーライセンスを他者に譲渡もしくは配布する事
+
+・ソフトウェアそのものを許可無く営利目的に利用する事
+
+・リバースエンジニアリングを行う事
+
+・プログラムコードを改変する事
+
+これらの禁止事項に違反した場合は直ちに本ソフトウェアを使用および試用する権利を失うものとし
+ます。また、禁止事項に違反した結果として発生したあらゆる損害について、SYSTEMAXに一切の責は
+無いものとします。
+
+
+９．再配布
+本ソフトウェアはツールの設定ファイル等のエンドユーザーによってカスタマイズ可能な要素を持っ
+ています。これらのファイルを作成し配布する場合は下記の条件を守ってください。
+
+・法律に違反する内容を含まない事
+・他者に損害を与える内容を含まない事
+・定められた試用期間を不正に延長する方法もしくはその情報を含まない事
+・試用期間制限を不正に回避する方法もしくはその情報を含まない事
+
+なお、SYSTEMAX以外の者による配布物によって発生したいかなる損害についてもSYSTEMAXにその責は
+無いものとします。
+
+
+１０．エンドユーザーの著作物
+本ソフトウェアを使用してエンドユーザー自身が創作した著作物を商用利用する事については何の
+制限も課されません。
+
+
+１１．使用条件の改変
+本使用条件は予告なく改変される場合があります。

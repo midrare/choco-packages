@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>painttoolsai2.portable</id>
+    <version>0.0.0.20240814-alpha</version>
+    <packageSourceUrl>https://github.com/midrare/choco-packages</packageSourceUrl>
+    <owners>midrare</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>Paint Tool SAI 2 (Portable)</title>
+    <authors>SYSTEMAX</authors>
+    <projectUrl>https://www.systemax.jp/en/sai/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/midrare/choco-icons/master/painttoolsai2-128x128.png</iconUrl>
+    <copyright>2024 SYSTEMAX</copyright>
+    <licenseUrl>https://www.systemax.jp/en/sai/eula.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://www.systemax.jp/en/sai/faq.html</docsUrl>
+    <tags>paint drawing pen-tablet</tags>
+    <summary>Digital painting software</summary>
+    <description>
+      Paint Tool SAI 2 is a lightweight, high-performance digital painting software designed for illustrators, offering an intuitive interface and precise brush control. It supports advanced features such as layers, vector tools, pressure-sensitive stylus input, and customizable brushes, making it ideal for both detailed work and quick sketching. Its minimal system requirements and fluid user experience enable smooth operation even on less powerful hardware, while its focus on efficient workflow ensures responsiveness and ease of use.
+    </description>
+    <!-- =============================== -->
+
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.4.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <file src="*.ico" target="tools" />
+    <file src="*.png" target="tools" />
+    <file src="*.icns" target="tools" />
+  </files>
+</package>
