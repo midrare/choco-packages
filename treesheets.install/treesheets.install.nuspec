@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>treesheets.install</id>
+    <version>0.20241114</version>
+    <packageSourceUrl>https://github.com/midrare/choco-packages</packageSourceUrl>
+    <owners>midrare</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>TreeSheets (Install)</title>
+    <authors>aardappel (Wouter van Oortmerssen)</authors>
+    <projectUrl>https://strlen.com/treesheets/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/midrare/choco-icons/master/treesheets-128x128.png</iconUrl>
+    <copyright>2024 aardappel (Wouter van Oortmerssen)</copyright>
+    <licenseUrl>https://github.com/aardappel/treesheets/blob/master/ZLIB_LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/aardappel/treesheets.git</projectSourceUrl>
+    <docsUrl>https://strlen.com/treesheets/docs/tutorial.html</docsUrl>
+    <bugTrackerUrl>https://github.com/aardappel/treesheets/issues</bugTrackerUrl>
+    <tags>outliner spreadsheet</tags>
+    <summary>Next-gen spreadsheet app</summary>
+    <description>
+      TreeSheets is a hierarchical spreadsheet app that can function as a spreadsheet, mind mapper, outliner, PIM, text editor or small database.
+
+      TreeSheets takes the form of a flexible, grid-based interface. Its core function is to allow users to organize information in a nestable grid that accommodates varying levels of detail. A special feature of TreeSheets is that it allows each cell in its grid to contain additional cells, making it suitable for tasks that require both broad overviews and fine-grained details.
+
+      Users can structure data, notes, or ideas in complex ways without predefined formats, and its zoomable interface makes it easy to navigate between different levels of information. TreeSheets supports images, text, checkboxes, and simple formatting, providing a wide range of possibilities for personal information management, brainstorming, project planning, and data visualization. Its lightweight design makes it efficient for managing extensive data without the overhead typically associated with more complex applications. TreeSheets is open-source software.
+    </description>
+    <!-- =============================== -->
+
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.4.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <file src="*.ico" target="tools" />
+    <file src="*.png" target="tools" />
+    <file src="*.icns" target="tools" />
+  </files>
+</package>
