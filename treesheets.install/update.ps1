@@ -13,6 +13,9 @@ function global:au_GetLatest {
     $version = $latest.published_at.ToString("0.yyyyMMdd")
 
     $url64 = $latest.assets | ? { $_.name -Match $fileName } | Select -First 1 | Select -Expand browser_download_url
+    If (-not $url64) {
+        throw "Failed to find `"$fileName`" in $repoOwner/$repoName assets."
+    }
 
     return @{ Version = $version; URL64 = $url64; }
 }
