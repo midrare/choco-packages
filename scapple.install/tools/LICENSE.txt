@@ -1,0 +1,180 @@
+END USER SOFTWARE LICENCE AGREEMENT
+-----------------------------------
+
+THIS IS A SOFTWARE LICENCE AGREEMENT BETWEEN LITERATURE AND LATTE LIMITED
+(registered in England and Wales with number 6240207 whose registered
+office is at Lowin House, Tregolls Road, Truro, Cornwall TR1 2NA) (the
+'LICENSOR') AND YOU.
+
+PLEASE READ THIS LICENCE AGREEMENT CAREFULLY BEFORE USING THIS SOFTWARE.
+IF YOU USE THIS SOFTWARE THEN YOU AGREE TO BE BOUND BY THE TERMS OF THIS
+LICENCE AGREEMENT.
+
+IF YOU DO NOT AGREE TO THE TERMS OF THIS LICENCE THEN PLEASE DELETE THE
+SOFTWARE OR RETURN THE SOFTWARE AND THE RELATED DOCUMENTATION TO YOUR
+RETAILER. IF YOUR RETAILER DOES NOT ACCEPT THE RETURN THEN PLEASE CONTACT
+THE LICENSOR.
+
+PLEASE NOTE THAT THE LICENSOR STRONGLY RECOMMENDS THAT YOU TRY THE
+FREE TRIAL VERSION OF THE SOFTWARE BEFORE PURCHASING TO ENSURE THAT
+THE SOFTWARE SATISFIES YOUR REQUIREMENTS.
+
+
+1. Licence
+----------
+
+Upon accepting the terms of this agreement, the Licensor grants you, the
+licensee, ("you") and your family that live with you at the same address
+("family members") a non-exclusive, non- transferable limited licence
+to use the accompanying Scapple Microsoft Windows version software,
+including (if applicable) electronic documentation and associated
+material (the "Software") strictly in accordance with the terms and
+conditions of this licence agreement.
+
+This licence agreement enables you and your family members to use the
+Software on your own respective computers within your household but
+you may not copy or transfer the Software to any other computer or hard
+drive. Any members of your family not residing at your address for eight
+months of any year or more are not family members for the purposes of this
+licence agreement must purchase a separate Software licence.
+
+Additionally, you may make one copy of the Software for back-up purposes,
+maintaining always the same copyright information as the original, and
+you may also install one copy of the Software outside of the household
+provided it is for personal use by you or a family member and reasonable
+steps are taken to ensure that no one else can use the Software.
+
+You are taking responsibility for the actions of your family members and
+agree to indemnify the Licensor for any breaches of the terms of this
+licence agreement by you or your family members.
+
+This licence agreement grants a licence of the Software for an individual
+(including family members) or one user within a legal entity if the
+licensee is a company or partnership. If the intended use of the Software
+is for multiple users (other than within a family) within an institution
+(e.g. university, college or other) or within a business then please
+contact sales@literatureandlatte.com and you will be contacted in relation
+to putting in place the appropriate licence.
+
+
+2. Payment
+----------
+
+The licence fee payable is as set out on the Licensor's website and is non
+refundable. If you are downloading the Software as a free trial then the
+licence fee becomes due and payable as set out on the Licensor's website.
+You are responsible for the payment of any taxes which may be payable
+and are in addition to the licence fee.
+
+
+3. Restrictions
+---------------
+
+You and your family members are not permitted to copy the Software
+otherwise than for use of the Software for normal operation in accordance
+with this licence agreement. You shall not (save as to the extent allowed
+by law) disassemble, decompile or reverse engineer the Software, nor
+translate, adapt, modify, lease, rent, loan, redistribute, sub-lease,
+sub-license or create derivative works from the Software. You must ensure
+that the copyright notice of Licensor is duplicated as it appears in or
+on the Software on all authorised copies.
+
+This licence agreement does not entitle you or your family members to use
+the Apple Mac version or any other version of the Software unless you have
+entered into a separate licence agreement for that version.
+
+
+4. Disclaimer -------------
+
+The Software is provided on an "as is" basis and all warranties express
+or implied are excluded to the fullest extent permitted by law. The
+Licensor does not warrant that the Software will be error- free or that
+any such errors will be corrected and you are solely responsible for all
+costs and expenses associated with rectification, repair or damage caused
+by such errors. You acknowledge that the Licensor provides a free trial
+version of the Software for evaluation by you to see if the Software
+meets your requirements. The Licensor does not warrant that: (i) the
+Software will meet your requirements; (ii) your use of the software
+will be uninterrupted, timely, secure, or free from error; or (iii)
+any information obtained by you as a result of your use of the Software
+will be accurate or reliable.
+
+No advice or information, whether oral or written, obtained by you from
+the Licensor shall create any warranty not expressly stated in this
+licence agreement.
+
+
+5. Limitation of Liability
+--------------------------
+
+EXCEPT FOR DEATH OR PERSONAL INJURY ARISING FROM THE LICENSOR'S NEGLIGENCE,
+THE LICENSOR EXCLUDES AND DISCLAIMS ALL LIABILITY FOR ANY LOSS OR DAMAGE
+WHATSOEVER OR HOWSOEVER CAUSED ARISING DIRECTLY OR INDIRECTLY IN CONNECTION
+WITH THIS LICENCE AGREEMENT, THE SOFTWARE, ITS USE OR OTHERWISE. LICENSOR
+EXPRESSLY EXCLUDES LIABILITY FOR INDIRECT, SPECIAL, INCIDENTAL OR
+CONSEQUENTIAL LOSS OR DAMAGE HOWSOEVER CAUSED EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES. NOTWITHSTANDING THE FOREGOING, IN THE EVENT
+THAT THE LICENSOR INCURS ANY LIABILITY WHATSOEVER THEN SUCH LIABILITY
+IS LIMITED TO THE LICENCE FEE PAID BY YOU FOR THE SOFTWARE.
+
+
+6. Updates and Defects
+----------------------
+
+The Licensor grants you a licence of the Software in its current version
+only. New features are added at the sole discretion of the Licensor.
+While minor updates may be made available on the website free of charge,
+nothing in this licence agreement guarantees such updates the Licensor
+reserves the right to charge for major updates.
+
+Nothing in this agreement constitutes a promise about future features
+or versions of the Software. In the event that: (i) the Software does
+not comply with the express terms of this licence agreement; (ii) the
+usability of the Software is affected severely and sustainably; or (iii)
+any bug or severe anomaly could not be detected during the use of the
+free trial version then the Licensor may, at any time up to six months
+from the date of purchase, at its sole and absolute discretion either
+replace the Software free of charge to you or refund the purchase price.
+
+You are responsible for checking that the Software will run on your
+operating system and that any software that you use on that operating
+system will not affect the functionality of the Software. A list of
+Windows operating systems that are compatible with the Software is
+available on the Licensor's website (www.literatureandlatte.com).
+Only Windows operating systems that are listed at the time of purchase
+of the Software are compatible with the Software. If you subsequently
+migrate to a different Windows operating system, which may be an updated
+version of your existing compatible operating system, or to a different
+non-Windows operating system, and such operating system is not shown
+on the Licensor's website as being compatible at the time of purchase
+then the Software may not run and the Licensor shall not be liable for
+this and you may have to buy a subsequent updated version of the Software.
+
+
+7. General
+----------
+
+The Licensor shall at all times remain the sole owner of all intellectual
+property and like proprietary rights subsisting in or used in connection
+with the Software or created by unlawful use of the Software. The
+respective author of text created using the Software shall be the owner
+of all intellectual property rights in that text.
+
+The Software, including all components (sound and graphics), whether
+on disk, in read-only memory, or on any other media, and the related
+documentation are licensed to you by the Licensor. You own the disk
+on which the Software is recorded but the Licensor retains the title
+to the Software and related documentation.
+
+The Licensor may terminate this licence agreement immediately at any time
+if you are in breach of any of the terms and conditions of this licence
+agreement. You may terminate this agreement at any time.
+
+You shall destroy the Software and all upgrades or copies and any related
+materials in your/your family members' possession promptly upon termination
+of this licence agreement or discontinuance of the licence granted for any
+reason whatsoever.
+
+This agreement shall be construed in accordance with and governed by
+English law and subject to the non-exclusive jurisdiction of the English
+courts.

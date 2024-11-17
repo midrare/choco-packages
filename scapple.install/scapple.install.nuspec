@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
+
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>scapple.install</id>
+    <version>1.4.2</version>
+    <packageSourceUrl>https://github.com/midrare/choco-packages</packageSourceUrl>
+    <owners>midrare</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>Scapple (Install)</title>
+    <authors>Literature and Latte</authors>
+    <projectUrl>https://www.literatureandlatte.com/scapple/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/midrare/choco-icons/master/scapple-128x128.png</iconUrl>
+    <copyright>2013-2024 Literature and Latte</copyright>
+    <licenseUrl>https://www.literatureandlatte.com/wp-content/uploads/2023/09/Scapple-EULA-Win.pdf</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://www.literatureandlatte.com/learn-and-support</docsUrl>
+    <bugTrackerUrl>https://www.literatureandlatte.com/bug-reporting</bugTrackerUrl>
+    <tags>scapple mind-map</tags>
+    <summary>Free-form diagramming software</summary>
+    <description>
+      Ever scribbled ideas on a piece of paper and drawn lines between related thoughts? Then you already know what Scapple does. It's a virtual sheet of paper that lets you make notes anywhere and connect them using lines or arrows.
+      Join up your thinking however you want. Scapple doesn't force you to make connections—every note is equal, so it's up to you which notes have connections and which don't. You have complete freedom to experiment with how your ideas fit together.
+      Creating notes is as easy as double-clicking anywhere on the page; making connections between ideas is as simple as dragging and dropping one note onto another. And unlike real paper, in Scapple you can move notes around and never run out of space.
+    </description>
+    <releaseNotes><![CDATA[<ul><li>Updated the in-app store.</li><li>Improved drag and drop from Scrivener to work with multiple selections.</li><li>Enabled the title bar to adapt to the Windows dark or light mode Color setting.</li><li>Corrected text in an activation error message.</li></ul>]]></releaseNotes>
+    <!-- =============================== -->
+
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <file src="*.ico" target="tools" />
+    <file src="*.png" target="tools" />
+    <file src="*.icns" target="tools" />
+  </files>
+</package>
