@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>vue.install</id>
+    <version>3.3.0.20240907</version>
+    <packageSourceUrl>https://github.com/midrare/choco-packages</packageSourceUrl>
+    <owners>midrare</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>VUE (Install)</title>
+    <authors>Tufts University</authors>
+    <projectUrl>https://vue.tufts.edu/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/midrare/choco-icons/master/vue-128x128.png</iconUrl>
+    <copyright>2015 Tufts University</copyright>
+    <licenseUrl>https://opensource.org/license/ecl-2-0</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/VUE/VUE</projectSourceUrl>
+    <docsUrl>https://sites.tufts.edu/vue/</docsUrl>
+    <bugTrackerUrl>https://github.com/VUE/VUE/issues</bugTrackerUrl>
+    <tags>mindmap concept-map</tags>
+    <summary>Concept mapping app</summary>
+    <description>
+    Visual Understanding Environment (VUE) is a concept-mapping application developed by Tufts University. It enables users to create, organize, and integrate knowledge visually, facilitating the exploration and communication of complex ideas. VUE is particularly designed for academic and research contexts, allowing users to layer information, link data, and present intricate relationships in a clear, structured manner. With its dynamic mapping features, VUE supports critical thinking and collaborative learning by enabling the synthesis of diverse information sources into cohesive, visual representations.
+    </description>
+    <!-- =============================== -->
+
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.4.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <file src="*.ico" target="tools" />
+    <file src="*.png" target="tools" />
+    <file src="*.icns" target="tools" />
+  </files>
+</package>
