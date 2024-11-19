@@ -1,11 +1,11 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 
 $toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url            = ''
-$url64          = 'https://github.com/aardappel/treesheets/releases/download/11846384060/windows_treesheets_no_installer.zip'
+$url64          = 'https://github.com/aardappel/treesheets/releases/download/11899533196/windows_treesheets_no_installer.zip'
 $checksum       = ''
 $checksumType   = ''
-$checksum64     = 'E57F05C5C3819F45EE880054B20CC50F39B2DCB78C5D9120405138234D3A4959'
+$checksum64     = '856726BB8D62C3A517F454E89AB9F942057128E43AB98CA962AD63A5347FB838'
 $checksumType64 = 'sha256'
 
 $packageArgs = @{

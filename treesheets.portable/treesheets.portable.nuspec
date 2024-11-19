@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>treesheets.portable</id>
-    <version>0.20241114</version>
+    <version>0.20241118</version>
     <packageSourceUrl>https://github.com/midrare/choco-packages</packageSourceUrl>
     <owners>midrare</owners>
     <!-- ============================== -->
