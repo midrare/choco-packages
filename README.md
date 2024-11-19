@@ -5,15 +5,20 @@ This repository is automatically managed using [chocolatey-au](https://github.co
 
 
 **Dev Environment**  
-```nushell
+```powershell
 # https://docs.chocolatey.org/en-us/create/create-packages/#push-your-package
-sudo choco config set --name defaultPushSource --value https://push.chocolatey.org/
+choco config set --name defaultPushSource --value https://push.chocolatey.org/
 
 # get api key from: https://community.chocolatey.org/account
-sudo choco apikey --key xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --source https://push.chocolatey.org/
+choco apikey --key xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx --source https://push.chocolatey.org/
 
 # for automating package version updates
-sudo choco install chocolatey-au
+choco install chocolatey-au
+
+# for fetching packages from Github
+# https://github.com/microsoft/PowerShellForGitHub?tab=readme-ov-file#configuration
+Install-Module -Name PowerShellForGitHub
+Set-GitHubAuthentication -Credential $GITHUB_API_TOKEN
 ```
 
 **Build**  
