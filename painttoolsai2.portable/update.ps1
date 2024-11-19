@@ -14,7 +14,14 @@ function global:au_GetLatest {
     $html.write([ref]$htmlBody)
 
     $a64 = $html.getElementsByTagName("a") | ? innerText -match "SAI2 64bit" | Select -First 1
+    If (-not $a64) {
+        throw "Failed to find HTML element for 64-bit release."
+    }
+
     $a32 = $html.getElementsByTagName("a") | ? innerText -match "SAI2 32bit" | Select -First 1
+    If (-not $a32) {
+        throw "Failed to find HTML element for 32-bit release."
+    }
 
     $url64 = $a64.href -replace "^about://", "${scheme}://" -replace "^about:/","${baseUrl}/"
     $url32 = $a32.href -replace "^about://", "${scheme}://" -replace "^about:/","${baseUrl}/"
@@ -23,10 +30,16 @@ function global:au_GetLatest {
     If ($a64.innerText -match "SAI2 [0-9]+bit - ([0-9]{4}-[0-9]{2}-[0-9]{2}) ") {
         $version64 = "0.0.0." + ($matches[1] -replace "[^0-9]+","")
     }
+    If (-not $version64) {
+        throw "Failed to extract version string from `"$a64.innerText`"."
+    }
 
     $version32 = $null
     If ($a32.innerText -match "SAI2 [0-9]+bit - ([0-9]{4}-[0-9]{2}-[0-9]{2}) ") {
         $version32 = "0.0.0." + ($matches[1] -replace "[^0-9]+","")
+    }
+    If (-not $version32) {
+        throw "Failed to extract version string from `"$a32.innerText`"."
     }
 
     If ($version64 -ne $version32) {

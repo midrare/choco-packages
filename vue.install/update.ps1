@@ -10,6 +10,9 @@ function global:au_BeforeUpdate() {
 
 function global:au_GetLatest {
     $latest = Get-GitHubRelease -OwnerName $repoOwner -RepositoryName $repoName -Latest
+    If (-not $latest) {
+        throw "Failed to fetch latest release from $repoOwner/$repoName."
+    }
 
     $version = $latest.tag_name
     If (-not $version -or -not [Version]::Parse($version)) {
@@ -17,6 +20,9 @@ function global:au_GetLatest {
     }
 
     $url64 = $latest.assets | ? { $_.name -Match $fileName } | Select -First 1 | Select -Expand browser_download_url
+    If (-not $url64) {
+        throw "Failed to find `"$fileName`" in $repoOwner/$repoName assets."
+    }
 
     return @{ Version = $version; URL64 = $url64; }
 }

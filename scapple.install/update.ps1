@@ -15,23 +15,36 @@ function global:au_GetLatest {
     $latest = $html.getElementsByClassName("accordion") | ? {
         $_.getElementsByTagName("download-icon-text").Count -gt 0
     } | Select -First 1
+    If (-not $latest) {
+        throw "Failed to find HTML element containing latest release."
+    }
 
     $title = $latest.getElementsByClassName("accordion-title") `
         | Select -First 1 -Expand innerText
     $date = $latest.getElementsByClassName("accordion-date") `
         | Select -First 1 -Expand innerText
-
     $version = $title.Substring(0, $title.Length - $date.Length) `
         | Select-String -Pattern "(?<=[^\s]+\s+)([0-9]\S*)" `
         | Select -Expand Matches `
         | Select -Expand Value
+    If (-not $version) {
+        throw "Failed to find HTML element containing version string."
+    }
 
     $relnotes = ($latest.getElementsByTagName("li") `
         | Select -Expand innerText) -Split "^\r?\n", 0, "multiline" `
         | % { $_.Trim() } `
         | Select-String -Pattern '^\s*$' -NotMatch
-    $url = $latest.getElementsByClassName("download-icon-text") `
+    If (-not $relnotes) {
+        throw "Failed to find HTML element containing release notes."
+    }
+
+    $url64 = $latest.getElementsByClassName("download-icon-text") `
         | Select -First 1 -Expand href
+    If (-not $url64) {
+        throw "Failed to find download link in HTML."
+    }
+
 
     $relnotes = (
         "<![CDATA[<ul>" `
@@ -44,10 +57,10 @@ function global:au_GetLatest {
     $vermin = (($verobj.Minor, 0 | Measure -Max).Maximum)
     $verbld = (($verobj.Build, 0 | Measure -Max).Maximum)
     $verrev = (($verobj.Revision, 0 | Measure -Max).Maximum)
-    $url = $templateUrl `
+    $url64 = $templateUrl `
         -Replace "NNNN","$($vermaj)$($vermin)$($verbld)$($verrev)"
 
-    return @{ Version = $version; URL64 = $url; ReleaseNotes = $relnotes }
+    return @{ Version = $version; URL64 = $url64; ReleaseNotes = $relnotes }
 }
 
 function global:au_SearchReplace {
