@@ -10,7 +10,11 @@ function global:au_BeforeUpdate() {
 
 function global:au_GetLatest {
     $latest = Get-GitHubRelease -OwnerName $repoOwner -RepositoryName $repoName -Latest
-    $version = $latest.published_at.ToString("0.yyyyMMdd")
+
+    $version = $latest.tag_name
+    If (-not $version -or -not [Version]::Parse($version)) {
+        throw "Failed to parse version string `"$version`"."
+    }
 
     $url64 = $latest.assets | ? { $_.name -Match $fileName } | Select -First 1 | Select -Expand browser_download_url
 

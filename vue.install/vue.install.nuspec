@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>vue.install</id>
-    <version>3.3.0.20240907</version>
+    <version>3.3.0</version>
     <packageSourceUrl>https://github.com/midrare/choco-packages</packageSourceUrl>
     <owners>midrare</owners>
     <!-- ============================== -->
